@@ -1,0 +1,41 @@
+.tr-wc-buttonVector {
+  width: 16px;
+  margin-right: 8px;
+  margin-top: 1px;
+}
+
+.tr-wc-detailsPanel-connected {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tr-wc-checkVector {
+    width: 32px;
+    margin-right: 16px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+h4 {
+  &.tr-wc-switchLabel {
+    margin: 0;
+  }
+
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

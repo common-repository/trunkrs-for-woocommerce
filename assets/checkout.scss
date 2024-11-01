@@ -1,0 +1,24 @@
+input[id$=trunkrs-for-woocommerce_same],
+input[id$=trunkrs-for-woocommerce_next] {
+  float: left;
+  margin: 6px 8px 0 0;
+}
+
+label[for$=trunkrs-for-woocommerce_same],
+label[for$=trunkrs-for-woocommerce_next] {
+  display: flex;
+}
+
+.tr-wc-checkout-container {
+  display: flex;
+  flex-direction: column;
+
+  .tr-wc-checkout-title-container {
+    display: flex;
+
+    .tr-wc-checkout-logo {
+      width: 24px;
+      margin-right: 4px;
+    }
+  }
+}
